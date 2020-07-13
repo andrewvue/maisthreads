@@ -1,3 +1,70 @@
 body {
     background-color: rgb(221, 180, 245);
 }
+div{
+    display: grid;
+}
+
+#top-nav{
+    display: grid;
+    margin-top: 1rem;
+    background-color: aquamarine;
+}
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+/*Nav bar links*/
+ul .nav-products{
+    list-style-type: none;
+    display: inline-block;
+    grid-template-columns: 25px, 25px, 25px;
+    gap: 1 rem;
+    padding: 1rem;
+    background-color: burlywood;
+
+}
+
+.nav-women{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    float: left;
+    padding: 1rem;
+}
+.nav-men{
+    grid-column-start: 2;
+    grid-column-end: 1;
+    float: left;
+    padding: 1rem;
+}
+.nav-kids{
+    grid-column-start: 3;
+    grid-column-end: 1;
+    float: left;
+    padding: 1rem;
+}
+.nav-accesories{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    float: left;
+    padding: 1rem;
+}
+.nav-about{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    float: left;
+    padding: 1rem;
+}
+.carousel-main{
+    position: relative;
+}
+
+.carousel-two{
+    position: relative;
+}
+
+footer{
+    position: relative;
+    position: sticky;
+    bottom: 0;
+}
